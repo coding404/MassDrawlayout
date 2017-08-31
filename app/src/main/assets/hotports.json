@@ -1,0 +1,96 @@
+{
+  "goodsList": [
+    {
+      "name": "京唐港",
+      "selected": false
+    },
+    {
+      "name": "曹妃甸港",
+      "selected": false
+    },
+    {
+      "name": "天津港",
+      "selected": false
+    },
+    {
+      "name": "青岛港",
+      "selected": false
+    },
+    {
+      "name": "日照港",
+      "selected": false
+    },
+    {
+      "name": "连云港",
+      "selected": false
+    },
+    {
+      "name": "黄骅港",
+      "selected": false
+    },
+    {
+      "name": "大连港",
+      "selected": false
+    },
+    {
+      "name": "太仓港",
+      "selected": false
+    },
+    {
+      "name": "防城港",
+      "selected": false
+    },
+    {
+      "name": "湛江港",
+      "selected": false
+    },
+    {
+      "name": "唐山港",
+      "selected": false
+    },
+    {
+      "name": "烟台港",
+      "selected": false
+    },
+    {
+      "name": "张家港",
+      "selected": false
+    },
+    {
+      "name": "营口港",
+      "selected": false
+    },
+    {
+      "name": "丹东港",
+      "selected": false
+    },
+    {
+      "name": "南通港",
+      "selected": false
+    },
+    {
+      "name": "鲅鱼圈港",
+      "selected": false
+    },
+    {
+      "name": "秦皇岛港",
+      "selected": false
+    },
+    {
+      "name": "龙口港",
+      "selected": false
+    },
+    {
+      "name": "董家口港",
+      "selected": false
+    },
+    {
+      "name": "岚山港",
+      "selected": false
+    },
+    {
+      "name": "岚桥港",
+      "selected": false
+    }
+  ]
+}

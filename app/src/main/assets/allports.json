@@ -1,0 +1,344 @@
+{
+  "goodsList": [
+    {
+      "name": "京唐港",
+      "selected": false
+    },
+    {
+      "name": "曹妃甸港",
+      "selected": false
+    },
+    {
+      "name": "天津港",
+      "selected": false
+    },
+    {
+      "name": "青岛港",
+      "selected": false
+    },
+    {
+      "name": "日照港",
+      "selected": false
+    },
+    {
+      "name": "连云港",
+      "selected": false
+    },
+    {
+      "name": "黄骅港",
+      "selected": false
+    },
+    {
+      "name": "大连港",
+      "selected": false
+    },
+    {
+      "name": "太仓港",
+      "selected": false
+    },
+    {
+      "name": "防城港",
+      "selected": false
+    },
+    {
+      "name": "湛江港",
+      "selected": false
+    },
+    {
+      "name": "唐山港",
+      "selected": false
+    },
+    {
+      "name": "烟台港",
+      "selected": false
+    },
+    {
+      "name": "张家港",
+      "selected": false
+    },
+    {
+      "name": "营口港",
+      "selected": false
+    },
+    {
+      "name": "丹东港",
+      "selected": false
+    },
+    {
+      "name": "南通港",
+      "selected": false
+    },
+    {
+      "name": "鲅鱼圈港",
+      "selected": false
+    },
+    {
+      "name": "秦皇岛港",
+      "selected": false
+    },
+    {
+      "name": "龙口港",
+      "selected": false
+    },
+    {
+      "name": "董家口港",
+      "selected": false
+    },
+    {
+      "name": "岚山港",
+      "selected": false
+    },
+    {
+      "name": "岚桥港",
+      "selected": false
+    },
+    {
+      "name": "锦州港",
+      "selected": false
+    },
+    {
+      "name": "潍坊港",
+      "selected": false
+    },
+    {
+      "name": "赣榆港",
+      "selected": false
+    },
+    {
+      "name": "徐州港",
+      "selected": false
+    },
+    {
+      "name": "万寨港",
+      "selected": false
+    },
+    {
+      "name": "大丰港",
+      "selected": false
+    },
+    {
+      "name": "太仓美锦",
+      "selected": false
+    },
+    {
+      "name": "如皋港",
+      "selected": false
+    },
+    {
+      "name": "靖江港",
+      "selected": false
+    },
+    {
+      "name": "南京港",
+      "selected": false
+    },
+    {
+      "name": "南京明州码头",
+      "selected": false
+    },
+    {
+      "name": "北仓港",
+      "selected": false
+    },
+    {
+      "name": "蚌埠港",
+      "selected": false
+    },
+    {
+      "name": "马鞍山港",
+      "selected": false
+    },
+    {
+      "name": "芜湖港",
+      "selected": false
+    },
+    {
+      "name": "铜陵港",
+      "selected": false
+    },
+    {
+      "name": "池州刚",
+      "selected": false
+    },
+    {
+      "name": "安庆港",
+      "selected": false
+    },
+    {
+      "name": "黄石港",
+      "selected": false
+    },
+    {
+      "name": "武穴港",
+      "selected": false
+    },
+    {
+      "name": "武汉港",
+      "selected": false
+    },
+    {
+      "name": "荆州刚",
+      "selected": false
+    },
+    {
+      "name": "宜昌港",
+      "selected": false
+    },
+    {
+      "name": "枝城港",
+      "selected": false
+    },
+    {
+      "name": "岳阳港",
+      "selected": false
+    },
+    {
+      "name": "城陵矶港",
+      "selected": false
+    },
+    {
+      "name": "九江港",
+      "selected": false
+    },
+    {
+      "name": "罗泾港",
+      "selected": false
+    },
+    {
+      "name": "上海港",
+      "selected": false
+    },
+    {
+      "name": "马迹山港",
+      "selected": false
+    },
+    {
+      "name": "绿化山岗",
+      "selected": false
+    },
+    {
+      "name": "舟山港",
+      "selected": false
+    },
+    {
+      "name": "舟山武港",
+      "selected": false
+    },
+    {
+      "name": "鼠浪湖港",
+      "selected": false
+    },
+    {
+      "name": "宁波港",
+      "selected": false
+    },
+    {
+      "name": "温州港",
+      "selected": false
+    },
+    {
+      "name": "宁德港",
+      "selected": false
+    },
+    {
+      "name": "福州港",
+      "selected": false
+    },
+    {
+      "name": "可门港",
+      "selected": false
+    },
+    {
+      "name": "莆田港",
+      "selected": false
+    },
+    {
+      "name": "泉州港",
+      "selected": false
+    },
+    {
+      "name": "厦门港",
+      "selected": false
+    },
+    {
+      "name": "漳州港",
+      "selected": false
+    },
+    {
+      "name": "潮州港",
+      "selected": false
+    },
+    {
+      "name": "汕头港",
+      "selected": false
+    },
+    {
+      "name": "珠海港",
+      "selected": false
+    },
+    {
+      "name": "高栏港",
+      "selected": false
+    },
+    {
+      "name": "广州港",
+      "selected": false
+    },
+    {
+      "name": "江门港",
+      "selected": false
+    },
+    {
+      "name": "阳江港",
+      "selected": false
+    },
+    {
+      "name": "茂名港",
+      "selected": false
+    },
+    {
+      "name": "妈湾港",
+      "selected": false
+    },
+    {
+      "name": "赤湾港",
+      "selected": false
+    },
+    {
+      "name": "蛇口港",
+      "selected": false
+    },
+    {
+      "name": "梧州港",
+      "selected": false
+    },
+    {
+      "name": "南宁港",
+      "selected": false
+    },
+    {
+      "name": "贵港",
+      "selected": false
+    },
+    {
+      "name": "钦州港",
+      "selected": false
+    },
+    {
+      "name": "北海港",
+      "selected": false
+    },
+    {
+      "name": "海口港",
+      "selected": false
+    },
+    {
+      "name": "洋浦港",
+      "selected": false
+    },
+    {
+      "name": "八所港",
+      "selected": false
+    }
+  ]
+}

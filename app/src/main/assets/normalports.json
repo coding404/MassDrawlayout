@@ -1,0 +1,28 @@
+{
+  "goodsList": [
+    {
+      "name": "京唐港",
+      "selected": false
+    },
+    {
+      "name": "曹妃甸港",
+      "selected": false
+    },
+    {
+      "name": "天津港",
+      "selected": false
+    },
+    {
+      "name": "青岛港",
+      "selected": false
+    },
+    {
+      "name": "日照港",
+      "selected": false
+    },
+    {
+      "name": "连云港",
+      "selected": false
+    }
+  ]
+}

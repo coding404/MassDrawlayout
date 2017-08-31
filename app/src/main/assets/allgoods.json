@@ -1,0 +1,556 @@
+{
+  "goodsList": [
+    {
+      "name": "PB粉",
+      "selected": false
+    },
+    {
+      "name": "纽曼粉",
+      "selected": false
+    },
+    {
+      "name": "麦克粉",
+      "selected": false
+    },
+    {
+      "name": "超特粉",
+      "selected": false
+    },
+    {
+      "name": "巴西卡粉",
+      "selected": false
+    },
+    {
+      "name": "PB块",
+      "selected": false
+    },
+    {
+      "name": "纽曼块",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉",
+      "selected": false
+    },
+    {
+      "name": "高硅巴粗",
+      "selected": false
+    },
+    {
+      "name": "FMG西部粉",
+      "selected": false
+    },
+    {
+      "name": "FMG混合粉",
+      "selected": false
+    },
+    {
+      "name": "金步巴粉",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿",
+      "selected": false
+    },
+    {
+      "name": "乌克兰球团",
+      "selected": false
+    },
+    {
+      "name": "加拿大精粉",
+      "selected": false
+    },
+    {
+      "name": "智利球团",
+      "selected": false
+    },
+    {
+      "name": "乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "秘鲁精粉",
+      "selected": false
+    },
+    {
+      "name": "力拓杨迪粉",
+      "selected": false
+    },
+    {
+      "name": "罗布河块",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿NPSP",
+      "selected": false
+    },
+    {
+      "name": "63乌克兰球团",
+      "selected": false
+    },
+    {
+      "name": "加拿大65精粉",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉SFHT",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉BRBF",
+      "selected": false
+    },
+    {
+      "name": "YuGok65乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "InGok65乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "InGok67乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "SecGok66乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "YuGok67.5乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOCP",
+      "selected": false
+    },
+    {
+      "name": "SP10粉",
+      "selected": false
+    },
+    {
+      "name": "PMI粉58",
+      "selected": false
+    },
+    {
+      "name": "FMG特粉",
+      "selected": false
+    },
+    {
+      "name": "FMG摩卡粉",
+      "selected": false
+    },
+    {
+      "name": "FMG国王粉",
+      "selected": false
+    },
+    {
+      "name": "FMG块",
+      "selected": false
+    },
+    {
+      "name": "CC块",
+      "selected": false
+    },
+    {
+      "name": "麦克块",
+      "selected": false
+    },
+    {
+      "name": "BHP杨迪粉",
+      "selected": false
+    },
+    {
+      "name": "卡拉拉精粉",
+      "selected": false
+    },
+    {
+      "name": "卡拉拉粗粉",
+      "selected": false
+    },
+    {
+      "name": "一钢粉",
+      "selected": false
+    },
+    {
+      "name": "一钢块",
+      "selected": false
+    },
+    {
+      "name": "Channar粉",
+      "selected": false
+    },
+    {
+      "name": "Channar块",
+      "selected": false
+    },
+    {
+      "name": "FMG西部粉",
+      "selected": false
+    },
+    {
+      "name": "PPC粉",
+      "selected": false
+    },
+    {
+      "name": "Atlas粉",
+      "selected": false
+    },
+    {
+      "name": "阿特拉斯54粉",
+      "selected": false
+    },
+    {
+      "name": "MNP",
+      "selected": false
+    },
+    {
+      "name": "吉布森块矿",
+      "selected": false
+    },
+    {
+      "name": "库宾粉",
+      "selected": false
+    },
+    {
+      "name": "库宾块",
+      "selected": false
+    },
+    {
+      "name": "澳大利亚球团grange球团",
+      "selected": false
+    },
+    {
+      "name": "OPAL粉",
+      "selected": false
+    },
+    {
+      "name": "京宝粉",
+      "selected": false
+    },
+    {
+      "name": "PMI块矿",
+      "selected": false
+    },
+    {
+      "name": "卡拉拉块矿",
+      "selected": false
+    },
+    {
+      "name": "Atlas块",
+      "selected": false
+    },
+    {
+      "name": "CARINA粉",
+      "selected": false
+    },
+    {
+      "name": "罗伊山块",
+      "selected": false
+    },
+    {
+      "name": "罗伊山粉",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉SSFG",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOH8",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉SFXB",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOH7",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉SF58",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉SFHG",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOH2",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOH6",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOC3",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOH4",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOC5",
+      "selected": false
+    },
+    {
+      "name": "CSN巴粗IOC6",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉SFNG",
+      "selected": false
+    },
+    {
+      "name": "巴西精粉PFCJ（卡精）",
+      "selected": false
+    },
+    {
+      "name": "Samarco粉矿",
+      "selected": false
+    },
+    {
+      "name": "CSN巴精CCNM",
+      "selected": false
+    },
+    {
+      "name": "巴西造球精粉",
+      "selected": false
+    },
+    {
+      "name": "CSN巴精PFSP",
+      "selected": false
+    },
+    {
+      "name": "CSN巴精CCMC",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿LONS",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿LOBT",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿NSH3",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿NPSP",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿LONT",
+      "selected": false
+    },
+    {
+      "name": "CSN巴块NFSP",
+      "selected": false
+    },
+    {
+      "name": "Samarco球团",
+      "selected": false
+    },
+    {
+      "name": "巴西球团AF50",
+      "selected": false
+    },
+    {
+      "name": "Gerdau巴西块矿",
+      "selected": false
+    },
+    {
+      "name": "Gerdau巴西球团",
+      "selected": false
+    },
+    {
+      "name": "智利精粉APF",
+      "selected": false
+    },
+    {
+      "name": "智利精粉HPF",
+      "selected": false
+    },
+    {
+      "name": "智利精粉RPF",
+      "selected": false
+    },
+    {
+      "name": "智利粗粉RSF",
+      "selected": false
+    },
+    {
+      "name": "智利块矿",
+      "selected": false
+    },
+    {
+      "name": "智利球碎",
+      "selected": false
+    },
+    {
+      "name": "加拿大Beaver粉",
+      "selected": false
+    },
+    {
+      "name": "加拿大球团LAP",
+      "selected": false
+    },
+    {
+      "name": "加拿大球团SAP",
+      "selected": false
+    },
+    {
+      "name": "加拿大高硅球团",
+      "selected": false
+    },
+    {
+      "name": "66乌克兰球团",
+      "selected": false
+    },
+    {
+      "name": "64.5南非精粉",
+      "selected": false
+    },
+    {
+      "name": "60南非精粉",
+      "selected": false
+    },
+    {
+      "name": "南非Kumba粉",
+      "selected": false
+    },
+    {
+      "name": "南非粗粉",
+      "selected": false
+    },
+    {
+      "name": "南非高钛矿",
+      "selected": false
+    },
+    {
+      "name": "南非ASSMANG粉",
+      "selected": false
+    },
+    {
+      "name": "南非磁铁矿",
+      "selected": false
+    },
+    {
+      "name": "南非Kumba块",
+      "selected": false
+    },
+    {
+      "name": "南非高钛球团",
+      "selected": false
+    },
+    {
+      "name": "芬兰精粉",
+      "selected": false
+    },
+    {
+      "name": "钒钛磁铁块矿",
+      "selected": false
+    },
+    {
+      "name": "秘鲁粗粉",
+      "selected": false
+    },
+    {
+      "name": "秘鲁烧结粉",
+      "selected": false
+    },
+    {
+      "name": "毛粉矿",
+      "selected": false
+    },
+    {
+      "name": "塞拉利昂粗粉",
+      "selected": false
+    },
+    {
+      "name": "俄罗斯精粉",
+      "selected": false
+    },
+    {
+      "name": "俄罗斯球团",
+      "selected": false
+    },
+    {
+      "name": "墨西哥球团",
+      "selected": false
+    },
+    {
+      "name": "马来西亚粉",
+      "selected": false
+    },
+    {
+      "name": "马来西亚块",
+      "selected": false
+    },
+    {
+      "name": "印度粉矿",
+      "selected": false
+    },
+    {
+      "name": "印度球团",
+      "selected": false
+    },
+    {
+      "name": "印度块矿",
+      "selected": false
+    },
+    {
+      "name": "库兰粉",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉",
+      "selected": false
+    },
+    {
+      "name": "巴西精粉",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿",
+      "selected": false
+    },
+    {
+      "name": "巴西球团",
+      "selected": false
+    },
+    {
+      "name": "智利精粉",
+      "selected": false
+    },
+    {
+      "name": "南非粉",
+      "selected": false
+    },
+    {
+      "name": "南非块",
+      "selected": false
+    },
+    {
+      "name": "乌克兰精粉",
+      "selected": false
+    },
+    {
+      "name": "澳洲精粉",
+      "selected": false
+    },
+    {
+      "name": "巴西未筛块",
+      "selected": false
+    },
+    {
+      "name": "巴西筛后块",
+      "selected": false
+    }
+  ]
+}

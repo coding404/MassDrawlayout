@@ -1,0 +1,72 @@
+{
+  "goodsList": [
+    {
+      "name": "PB粉",
+      "selected": false
+    },
+    {
+      "name": "纽曼粉",
+      "selected": false
+    },
+    {
+      "name": "麦克粉",
+      "selected": false
+    },
+    {
+      "name": "超特粉",
+      "selected": false
+    },
+    {
+      "name": "巴西卡粉",
+      "selected": false
+    },
+    {
+      "name": "PB块",
+      "selected": false
+    },
+    {
+      "name": "纽曼块",
+      "selected": false
+    },
+    {
+      "name": "巴西粗粉",
+      "selected": false
+    },
+    {
+      "name": "高硅巴粗",
+      "selected": false
+    },
+    {
+      "name": "FMG西部粉",
+      "selected": false
+    },
+    {
+      "name": "FMG混合粉",
+      "selected": false
+    },
+    {
+      "name": "金步巴粉",
+      "selected": false
+    },
+    {
+      "name": "巴西块矿",
+      "selected": false
+    },
+    {
+      "name": "乌克兰球团",
+      "selected": false
+    },
+    {
+      "name": "加拿大精粉",
+      "selected": false
+    },
+    {
+      "name": "智利球团",
+      "selected": false
+    },
+    {
+      "name": "乌克兰精粉",
+      "selected": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "goodsList": [
+   {
+      "name": "PB粉",
+      "selected": false
+    },
+    {
+      "name": "纽曼粉",
+      "selected": false
+    },
+    {
+      "name": "麦克粉",
+      "selected": false
+    },
+    {
+      "name": "超特粉",
+      "selected": false
+    },
+    {
+      "name": "巴西卡粉",
+      "selected": false
+    },
+    {
+      "name": "PB块",
+      "selected": false
+    }
+  ]
+}
