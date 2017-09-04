@@ -113,22 +113,17 @@ public class MainActivity extends FragmentActivity implements IChioces {
     private PageAdapter mPortsDetailAdapter;
     private List<Fragment> mPortsDetailList;
 
+    private String mGoods = "";
+    private String mPort = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        mImageView = (ImageView) findViewById(R.id.iv_select);
-        mLayout = (DrawerLayout) findViewById(R.id.dl_more);
-        mImageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mLayout.openDrawer(Gravity.RIGHT);
-            }
-        });
+        mTvTitle.setText("MassDrawLayout");
         mDlMore.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
         initTouchListener();
-
         initCommonGoodsData();
         initCommonPortsData();
         initGoodsDetailData();
@@ -230,6 +225,7 @@ public class MainActivity extends FragmentActivity implements IChioces {
                     for (int i = 0; i < mPortsList.size(); i++) {
                         mPortsList.get(i).setSelected(false);
                     }
+                    mPort = mPortsList.get(position).getName();
                     mPortsList.get(position).setSelected(true);
                     mPortsAdapter.notifyDataSetChanged();
                     mTvUnnormalPort.setText("");
@@ -257,6 +253,7 @@ public class MainActivity extends FragmentActivity implements IChioces {
                     for (int i = 0; i < mGoodsList.size(); i++) {
                         mGoodsList.get(i).setSelected(false);
                     }
+                    mGoods = mGoodsList.get(position).getName();
                     mGoodsList.get(position).setSelected(true);
                     mGoodsAdapter.notifyDataSetChanged();
                     mTvUnnormalGoods.setText("");
@@ -312,6 +309,7 @@ public class MainActivity extends FragmentActivity implements IChioces {
                 mLlPortInclude.setVisibility(View.GONE);
                 break;
             case R.id.tv_second_commit:
+                mEtContent.setText("品名：" + mGoods + ",港口：" + mPort);
                 mDlMore.closeDrawer(Gravity.RIGHT);
                 break;
             case R.id.iv_search:
@@ -323,15 +321,21 @@ public class MainActivity extends FragmentActivity implements IChioces {
 
     @Override
     public void goodsClick(String goods) {
+        mGoods = goods;
         mTvUnnormalGoods.setText(goods);
-        mDlMore.closeDrawer(Gravity.RIGHT);
+        mLlOne.setVisibility(View.VISIBLE);
+        mLlGoodsInclude.setVisibility(View.GONE);
+        mLlPortInclude.setVisibility(View.GONE);
         resetCommenData(mGoodsList, mGoodsAdapter);
     }
 
     @Override
     public void portClick(String port) {
+        mPort = port;
         mTvUnnormalPort.setText(port);
-        mDlMore.closeDrawer(Gravity.RIGHT);
+        mLlOne.setVisibility(View.VISIBLE);
+        mLlGoodsInclude.setVisibility(View.GONE);
+        mLlPortInclude.setVisibility(View.GONE);
         resetCommenData(mPortsList, mPortsAdapter);
     }
 
