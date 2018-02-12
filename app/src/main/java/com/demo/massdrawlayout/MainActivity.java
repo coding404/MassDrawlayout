@@ -99,8 +99,6 @@ public class MainActivity extends FragmentActivity implements IChioces {
     LinearLayout mLlGoodsInclude;
     @Bind(R.id.dl_more)
     DrawerLayout mDlMore;
-    private ImageView mImageView;
-    private DrawerLayout mLayout;
 
     private PurchaseCommonGoodsAdapter mGoodsAdapter;
     private PurchaseCommonGoodsAdapter mPortsAdapter;
