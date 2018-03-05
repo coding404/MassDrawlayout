@@ -1,5 +1,6 @@
 package com.demo.massdrawlayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
@@ -11,7 +12,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 import com.demo.massdrawlayout.adapter.PageAdapter;
 import com.demo.massdrawlayout.adapter.PurchaseCommonGoodsAdapter;
+import com.demo.massdrawlayout.sortList.AboutMeActivity;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
@@ -31,16 +32,15 @@ import butterknife.OnClick;
 
 public class MainActivity extends FragmentActivity implements IChioces {
 
+
     @Bind(R.id.iv_back)
     ImageView mIvBack;
     @Bind(R.id.tv_title)
     TextView mTvTitle;
-    @Bind(R.id.iv_search)
-    ImageView mIvSearch;
-    @Bind(R.id.et_content)
-    EditText mEtContent;
-    @Bind(R.id.iv_select)
-    ImageView mIvSelect;
+    @Bind(R.id.tv_click)
+    TextView mTvClick;
+    @Bind(R.id.tv_result)
+    TextView mTvResult;
     @Bind(R.id.tv_first_goods)
     TextView mTvFirstGoods;
     @Bind(R.id.tv_unnormal_goods)
@@ -99,7 +99,6 @@ public class MainActivity extends FragmentActivity implements IChioces {
     LinearLayout mLlGoodsInclude;
     @Bind(R.id.dl_more)
     DrawerLayout mDlMore;
-
     private PurchaseCommonGoodsAdapter mGoodsAdapter;
     private PurchaseCommonGoodsAdapter mPortsAdapter;
     private List<GoodsBean.GoodsListBean> mGoodsList;
@@ -274,7 +273,7 @@ public class MainActivity extends FragmentActivity implements IChioces {
         mLlGoodsInclude.setOnTouchListener(touchListener);
     }
 
-    @OnClick({R.id.iv_back, R.id.iv_select, R.id.ll_first_go, R.id.ll_second_go, R.id.iv_portdetail_back, R.id.iv_goodsdetail_back, R.id.tv_second_commit})
+    @OnClick({R.id.iv_back, R.id.tv_click, R.id.ll_first_go, R.id.ll_second_go, R.id.iv_portdetail_back, R.id.iv_goodsdetail_back, R.id.tv_second_commit, R.id.tv_about_me})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.iv_back:
@@ -290,7 +289,7 @@ public class MainActivity extends FragmentActivity implements IChioces {
                 mLlGoodsInclude.setVisibility(View.GONE);
                 mLlPortInclude.setVisibility(View.VISIBLE);
                 break;
-            case R.id.iv_select:
+            case R.id.tv_click:
                 mLlOne.setVisibility(View.VISIBLE);
                 mLlGoodsInclude.setVisibility(View.GONE);
                 mLlPortInclude.setVisibility(View.GONE);
@@ -307,10 +306,12 @@ public class MainActivity extends FragmentActivity implements IChioces {
                 mLlPortInclude.setVisibility(View.GONE);
                 break;
             case R.id.tv_second_commit:
-                mEtContent.setText("品名：" + mGoods + ",港口：" + mPort);
+                mTvResult.setText("结果为：\n品名：" + mGoods + ",港口：" + mPort);
                 mDlMore.closeDrawer(Gravity.RIGHT);
                 break;
-            case R.id.iv_search:
+            case R.id.tv_about_me:
+                Intent intent = new Intent(this, AboutMeActivity.class);
+                startActivity(intent);
                 break;
             default:
                 break;

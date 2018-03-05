@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:layout_gravity="right"
-             android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/ll_one"
@@ -35,7 +35,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
-                        android:text="请选择品种"/>
+                        android:text="请选择品种" />
 
                     <TextView
                         android:id="@+id/tv_unnormal_goods"
@@ -45,7 +45,8 @@
                         android:layout_toLeftOf="@+id/ll_first_go"
                         android:layout_toRightOf="@+id/tv_first_goods"
                         android:maxLines="1"
-                        android:paddingLeft="10dp"/>
+                        android:paddingLeft="10dp"
+                        android:textColor="#FA940B" />
 
 
                     <LinearLayout
@@ -64,14 +65,14 @@
                             android:layout_centerVertical="true"
                             android:layout_marginRight="10dp"
                             android:layout_toLeftOf="@+id/iv_first_go"
-                            android:text="全部"/>
+                            android:text="全部" />
 
                         <ImageView
                             android:id="@+id/iv_first_go"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginRight="10dp"
-                            android:src="@drawable/iv_more"/>
+                            android:src="@drawable/iv_more" />
 
                     </LinearLayout>
 
@@ -81,7 +82,7 @@
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/lrv_first"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -95,7 +96,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
-                        android:text="请选择港口"/>
+                        android:text="请选择港口" />
 
                     <TextView
                         android:id="@+id/tv_unnormal_port"
@@ -105,7 +106,8 @@
                         android:layout_toLeftOf="@+id/ll_second_go"
                         android:layout_toRightOf="@+id/tv_second_port"
                         android:maxLines="1"
-                        android:paddingLeft="10dp"/>
+                        android:paddingLeft="10dp"
+                        android:textColor="#FA940B" />
 
 
                     <LinearLayout
@@ -124,21 +126,21 @@
                             android:layout_centerVertical="true"
                             android:layout_marginRight="10dp"
                             android:layout_toLeftOf="@+id/iv_first_go"
-                            android:text="全部"/>
+                            android:text="全部" />
 
                         <ImageView
                             android:id="@+id/iv_second_go"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginRight="10dp"
-                            android:src="@drawable/iv_more"/>
+                            android:src="@drawable/iv_more" />
                     </LinearLayout>
                 </RelativeLayout>
 
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/lrv_second"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
 
             </LinearLayout>
@@ -152,17 +154,17 @@
             android:background="#FA940B"
             android:gravity="center"
             android:text="查询"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
 
     <include
         layout="@layout/port_detail_include"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <include
         layout="@layout/purchase_goods_detail_include"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
 </FrameLayout>
