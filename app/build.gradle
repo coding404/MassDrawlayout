@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
-
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
+}
 android {
     compileSdkVersion 25
     buildToolsVersion '26.0.2'
@@ -15,8 +17,19 @@ android {
     }
     buildTypes {
         release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            //apk命名
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "MassDrawlayout-${defaultConfig.versionCode}-${defaultConfig.versionName}-${releaseTime()}.apk"
+                }
+            }
+            debug {
+                buildConfigField "boolean", "LOG_DEBUG", "true"
+            }
         }
     }
 }
